@@ -1,0 +1,13 @@
+# python cache
+__pycache__/
+*.pyc
+
+#model files
+*.pt
+
+#video
+*.mp4
+
+#env
+venv/
+env/
