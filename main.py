@@ -53,6 +53,7 @@ def play_video(path,reset=False):
 			player=vlc.MediaPlayer(path)
 		except Exception as e:
 			print(f"Error creating player: {e}")
+			print("hi")
 			return
 	    
 		current_player=player
