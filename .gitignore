@@ -11,3 +11,6 @@ __pycache__/
 #env
 venv/
 env/
+
+#eml
+*.eml

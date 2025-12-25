@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import time
 import threading
 import vlc
-import abc
+
 
 playback_lock=threading.Lock()
 is_playing= False
