@@ -98,7 +98,7 @@ while True:
 	t=time.time()
 	hits=sum(buffer)
 	cooldown_remaining=max(0,cool_time-(t-last_tri_time))
-	if hits>3 and cooldown_remaining<=0:
+	if hits>2 and cooldown_remaining<=0:
 		 print("[trigger] conditions met -> attempting to play video")
 		 play_video("E:\LPU\PROJECTS\study_gaurd\VID_20251124_121454_078.mp4",reset=False)
 		 last_tri_time=t
